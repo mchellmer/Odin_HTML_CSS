@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head><title>This outlines the page metadata</title></head>
+
+<body>
+<p>
+  <strong>important stuff is bold</strong>        <!--strong importance-->
+  <b>Bold stuff</b>                               <!--Style offsetting-->
+  <em>Italic emphasis</em>
+  <i>Italic stuff</i>
+</p>
+
+<div>Generic selector for content</div>
+
+
+
+
+<!--                   Media                   -->
+<a href='link'>Tag</a>                          <!--Hyperlink-->
+
+<img src="link" alt = "tag">                    <!--Images-->
+
+<audio src="source link" autoplay></audio>
+<audio src="source link" controls></audio>      <!-- with control-->
+<audio controls autoplay loop>
+  <source src="firstsource.mp3" type="audio/mpeg"> <!--Checks if browser supports before loading-->
+  <source src="2ndsource.ogg" type="audio/ogg">
+  This text displays if audio sources not supported by browser
+</audio>
+
+<video src="link" controls poster="file.jpg"></video> <!-- works similar to audio -->
+
+<iframe src="URL"></iframe>                     <!--insert another web page e.g. google maps-->
+<figure><img src="link"><figcaption>Caption</figcaption></figure>
+
+
+
+
+
+<!--              HTML5 Specifics               -->
+<header>This will be at the top of the page</header>
+<section>Outlines a body section in the HTML</section>
+<article>Section of independent self contained content</article>
+<aside>Holds content such as side bars</aside>       <!-- Use within another element e.g. article -->
+<footer></footer>
+
+<!--e.g.!-->
+<header>
+  <h1>Styles Conference</h1>
+  <h3>August 24&ndash;26th &mdash; Chicago, IL</h3>
+</header>
+
+<section>
+  <h2>Dedicated to the Craft of Building Websites</h2>
+  <p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
+</section>
+
+<footer>
+  <small>&copy; Styles Conference</small>
+</footer>
+
+
+
+
+<!--                         Linking                             -->
+<link rel="stylesheet" href="/css/styles.css"> <!-- /css/styles.css is the direct path -->
+<link rel="stylesheet" href="css/styles.css"> <!-- omit lead / for rel path -->
+
+
+
+</body>
+
+</html>

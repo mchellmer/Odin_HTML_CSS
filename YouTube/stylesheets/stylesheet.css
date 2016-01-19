@@ -1,0 +1,25 @@
+section
+{
+  float: left;
+}
+
+.header
+{
+  width : 1000px;
+}
+
+#body
+{
+  width : 640px;
+}
+
+aside
+{
+  float: right;
+}
+
+body
+{
+    background-color : #D3D3D3;
+    width : 1013px;
+}
