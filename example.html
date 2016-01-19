@@ -67,6 +67,85 @@
 <link rel="stylesheet" href="css/styles.css"> <!-- omit lead / for rel path -->
 
 
+<!--                         Tables                             -->
+
+<table>
+  <caption>Table Title</caption>
+  <thead>
+  <tr>
+    <th>col header</th>
+    <th>col header</th>
+  </tr>
+  </thead>
+  
+  <tbody>
+  <tr>
+    <td>Data in col 1</td>
+    <td>Data in col 2</td>
+  </tr>
+  </tbody>
+  
+  <tfoot>
+    
+  </tfoot>
+  
+</table>
+
+<table>
+<thead>
+  <tr>
+    <th scope="col" colspan="2">Title</th><!-- This merges two adjoining cells -->
+  </tr>
+</thead>
+
+<tr>
+  <td>Col 1</td>
+  <td>Col 2</td>
+</tr>
+</table>
+
+
+
+
+<!--  **************          Forms    ****************************************         -->
+<form action="/login" method="post"> <!-- action is a url where input is sent, method is HTTP method -->
+
+<!-- Lable for entries -->
+<label for="username">Username</label>
+
+<!-- Text entry -->
+<input type="text" name="username">
+<input type="date" name="birthday">
+<input type="time" name="game-time">
+<input type="email" name="email-address">
+<input type="url" name="website">
+<input type="number" name="cost">
+<input type="tel" name="phone-number">
+<textarea name="comment">Add your comment here</textarea>
+
+<!-- Submit -->
+<input type="submit" name="submit" value="Send">
+
+<!-- Checks and radio -->
+<input type="radio" name="day" value="Friday" checked> Friday
+<input type="checkbox" name="day" value="Friday" checked> Friday
+
+<!-- Dropdown -->
+<select name="day">
+  <option value="Friday" selected>Friday</option>
+  <option value="Saturday">Saturday</option>
+  <option value="Sunday">Sunday</option>
+</select>
+
+<!-- File attachment -->
+<input type="file" name="file">
+
+<!-- File attachment -->
+<fieldset> <!-- consolidates blocks of cod -->
+  <legend>Title for code block</legend>
+</fieldset>
+
+</form>
 
 </body>
 

@@ -1,0 +1,43 @@
+body
+{
+  margin-left: 50px;
+  width: 740px;
+}
+
+#entry-area
+{
+  width: 740px;
+  box-shadow: 10px 10px #888888;
+}
+
+label
+{
+  display: block
+}
+
+input
+{
+  display: block;
+}
+
+#check
+{
+  float: left;
+  margin-right: 15px;
+}
+
+#left-area
+{
+  float: left;
+  width: 300px;
+}
+
+#sidebar
+{
+  float: right;
+}
+
+span
+{
+  color: blue
+}
